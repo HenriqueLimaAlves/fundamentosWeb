@@ -1,0 +1,16 @@
+/*****************INDEX.HTML*****************/
+.p1{
+    text-align: center;
+
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    text-align: center;
+}
