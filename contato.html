@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -17,36 +17,61 @@
         </li>
     </ul>
 
-    <h1>Entre em contato comigo</h1>
+    <h1 class="center p40 mb50">Entre em contato comigo</h1>
 
-    <form>
-        <label for="nome">Nome: </label><br>
-        <input type="text " id="Nome">
-        <br>
-        <br>
-        <label for="email">E-mail: </label><br>
-        <input type="text " id="email">
-        <br>
-        <br>
-        <label for="assunto">Assunto: </label><br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-    </form>
+    <div class="container">
+        <div>
+            <form>
+                <label for="nome">Nome: </label><br>
+                <input type="text " id="Nome">
+                <br>
+                <br>
+                <label for="email">E-mail: </label><br>
+                <input type="text " id="email">
+                <br>
+                <br>
+                <label for="assunto">Assunto: </label><br>
+                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+                <br>
+                <br>
+                <button>Enviar</button>
+            </form>
+        </div>
 
-    <h2>Endereço</h2>
+        <div class="ml50">
+            <p>Rua Augustin Luberti, 418</p>
+            <p>São Paulo-SP</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.7025851495005!2d-46.49003048502121!3d-23.61499708465629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce68776412b62d%3A0x4723c54c81c52824!2sR.%20Augustin%20Luberti%2C%201154%20-%20Fazenda%20da%20Juta%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003977-409!5e0!3m2!1spt-BR!2sbr!4v1600698152336!5m2!1spt-BR!2sbr" 
+            width="500" 
+            height="400" 
+            frameborder="0" 
+            style="border:0;" 
+            allowfullscreen="" 
+            aria-hidden="false" 
+            tabindex="0"></iframe>
+        </div>
+    </div>
 
-    <p>Rua Augustin Luberti, 418</p>
-    <p>São Paulo-SP</p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.7025851495005!2d-46.49003048502121!3d-23.61499708465629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce68776412b62d%3A0x4723c54c81c52824!2sR.%20Augustin%20Luberti%2C%201154%20-%20Fazenda%20da%20Juta%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003977-409!5e0!3m2!1spt-BR!2sbr!4v1600698152336!5m2!1spt-BR!2sbr" 
-    width="500" 
-    height="400" 
-    frameborder="0" 
-    style="border:0;" 
-    allowfullscreen="" 
-    aria-hidden="false" 
-    tabindex="0"></iframe>
-    
+    <footer>
+
+        <div class="container mb50">
+
+            <a href ="https://www.linkedin.com/in/henrique-lima-alves/" target="_blank">
+                <img class="tm" src="assets/img/linkedin.png" alt="Logo do linkedin">
+            </a>
+
+            <a href="https://www.facebook.com/henrique.limaalves/" target="_blank">
+                <img class="tm" src="assets/img/facebook.png" alt="Logo do Facebook">
+            </a>
+           
+           <a href="https://twitter.com/henri633" target="_blank">
+               <img class="tm" src="assets/img/twitter.png" alt="Logo do twitter">
+           </a>
+
+        </div>
+        <p class="center">
+        Henrique Lima Alves &copy
+        </p>
+    </footer>
 </body>
 </html>
